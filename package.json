@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --exec ts-node src/index.ts",
-    "serve": "concurrently \"npx tsc -w\"  \"nodemon dist/app.js\" "
+    "serve": "concurrently \"npx tsc -w\"  \"nodemon dist/index.js\" "
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +22,7 @@
     "@babel/node": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "apollo-server": "^3.13.0",
-    "graphql": "^16.10.0"
+    "graphql": "^16.10.0",
+    "graphql-yoga": "^5.10.8"
   }
 }

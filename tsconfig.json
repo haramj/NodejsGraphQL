@@ -3,8 +3,6 @@
 
     "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "module": "commonjs",                                /* Specify what module code is generated. */
-    // "module": "ESNext",         // ESM 모듈 사용
-    // "target": "ESNext", 
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */
