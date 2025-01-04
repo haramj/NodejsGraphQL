@@ -23,6 +23,7 @@
     "@babel/preset-env": "^7.26.0",
     "apollo-server": "^3.13.0",
     "graphql": "^16.10.0",
+    "graphql-tools": "^9.0.10",
     "graphql-yoga": "^5.10.8"
   }
 }
