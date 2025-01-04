@@ -3,8 +3,6 @@ import movies from '../database/movie';
 const resolvers = {
   Query: {
     movies: () => {
-      
-      console.log(movies)
       return movies;
     },
     movie: (_: any, { id }: any) => {

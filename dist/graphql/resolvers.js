@@ -7,7 +7,6 @@ const movie_1 = __importDefault(require("../database/movie"));
 const resolvers = {
     Query: {
         movies: () => {
-            console.log(movie_1.default);
             return movie_1.default;
         },
         movie: (_, { id }) => {
