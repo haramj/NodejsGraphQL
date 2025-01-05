@@ -1,14 +1,25 @@
 type Movie {
-id: Int!
-name: String!
-rating: Int!
+    id: Int!
+    name: String!
+    rating: Int!
 }
 
 type Query {
-movies: [Movie!]!
-movie(id: Int!): Movie
+    movies: [Movie!]!
+    movie(id: Int!): Movie
+    "A curated array of listings to feature on the homepage"
+    featuredListings: [Listing!]!
 }
 
 type Mutation {
-addMovie(name: String!, rating: Int!): Movie!
+    addMovie(name: String!, rating: Int!): Movie!
+}
+
+"A particular intergalactic location available for booking"
+type Listing {
+    id: ID!
+    title: String!
+    numOfBeds: Int
+    costPerNight: Float
+    closedForBookings: Boolean
 }
