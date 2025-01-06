@@ -1,5 +1,5 @@
 import { ApolloServer } from 'apollo-server';
-import resolvers from './graphql/resolvers';
+import { resolvers } from './graphql/resolvers';
 import fs from "fs";
 
 const cors = {
