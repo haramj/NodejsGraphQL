@@ -1,7 +1,6 @@
-interface MoviesType{
+export interface MoviesType{
     id: number
     name: string
     rating: number
 }
 
-export default MoviesType;

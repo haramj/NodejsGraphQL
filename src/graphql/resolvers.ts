@@ -1,7 +1,11 @@
 import movies from '../database/movie';
+import { type Resolvers } from '../type/resolvers';
 
-const resolvers = {
+export const resolvers: Resolvers = {
   Query: {
+    featuredListings: (_: any, __: any, { dataSources }) => {
+      return dataSources.listingAPI.getFeaturedListings();
+    },
     movies: () => {
       return movies;
     },
@@ -23,5 +27,3 @@ const resolvers = {
     }
   }
 };
-
-export default resolvers;

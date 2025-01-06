@@ -1,4 +1,4 @@
-import MoviesType from "../interface/database";
+import MoviesType from "../type/database";
 
 const movies: MoviesType[] = [
     {
