@@ -16,6 +16,7 @@
     "@graphql-codegen/cli": "^5.0.3",
     "@graphql-codegen/typescript": "^4.1.2",
     "@graphql-codegen/typescript-resolvers": "^4.4.1",
+    "apollo-server-caching": "^3.3.0",
     "concurrently": "^9.1.2",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
@@ -23,6 +24,7 @@
   },
   "dependencies": {
     "@apollo/datasource-rest": "^6.4.1",
+    "@apollo/server": "^4.11.3",
     "@babel/core": "^7.26.0",
     "@babel/node": "^7.26.0",
     "@babel/preset-env": "^7.26.0",

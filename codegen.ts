@@ -5,6 +5,9 @@ const config: CodegenConfig = {
   generates: {
     "./src/type/resolvers.ts": {
       plugins: ["typescript", "typescript-resolvers"],
+      config: {
+        contextType: "./context#DataSourceContext",
+      },
     },
   },
 };
